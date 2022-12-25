@@ -7,10 +7,11 @@ Array.from(buttons).forEach((button) => {
             string = eval(string)
             datainput.value = string
         }else if(e.target.innerHTML === "C"){
-            datainput.value = ""
+            string = ""
+            datainput.value = string
         }
         else{
-            console.log(e.target)
+            datainput.value = "";
             string = string + e.target.innerHTML;
             datainput.value = string
         }
