@@ -12,9 +12,9 @@
     justify-content:center;
 }
 .calculator{
+    width: 340px;
     border-radius: 15px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
-    width: 25%;
 }
 .calculationdiv{
     width: 100%;
@@ -73,20 +73,16 @@
     width: 133px;
     border-radius: 30px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 352px) {
    .calculator{
-    width: 303px;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
    }    
 }
-@media only screen and (max-width: 324px) {
-    .calculator{
-     width: 100%;
-     height: 100vh;
-    }    
+@media only screen and (max-width: 324px) { 
     .buttons{
        width: 18%;
-       height: 77%;
+       height: 85%;
        font-size: 13px;
     }
     #zerobutton {
